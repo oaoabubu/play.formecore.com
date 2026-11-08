@@ -149,6 +149,8 @@
     figure.app-shot { margin: 1rem 0 1.35rem; border: 1px solid var(--line); border-radius: 14px; overflow: hidden; background: #f0f2ed; }
     figure.app-shot img { width: 100%; max-height: 560px; object-fit: contain; background: #eef1ec; }
     figure.app-shot figcaption { margin: 0; padding: .65rem .8rem; background: #fff; }
+    .shot-pair { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; margin: 1rem 0 1.35rem; }
+    .shot-pair figure.app-shot { margin: 0; }
     .table-wrap { margin: 1.8rem calc(50% - 46vw); overflow-x: auto; border: 1px solid var(--line); border-radius: 16px; background: #fff; }
     table { width: 100%; min-width: 920px; border-collapse: collapse; font: .88rem/1.55 ui-sans-serif, system-ui, sans-serif; }
     th, td { padding: .9rem .85rem; border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; }
@@ -186,6 +188,7 @@
       figure { margin-left: -1.25rem; margin-right: -1.25rem; }
       .table-wrap { margin-left: -1.25rem; margin-right: -1.25rem; border-radius: 0; }
       .score-list { grid-template-columns: 1fr; }
+      .shot-pair { grid-template-columns: 1fr; }
     }
   </style>
 </head>
@@ -227,7 +230,7 @@
 
       <aside class="play-cta" aria-labelledby="try-play-top">
         <h2 id="try-play-top">打開 Play.formecore.com，馬上開始</h2>
-        <p>不用下載，也不用註冊。選一段專注時間，讓遊戲裡的 Berry 在房間陪你；完成後再餵牠、摸摸牠，或記下一次運動。</p>
+        <p>不用下載，也不用註冊。選一段專注時間，讓遊戲裡的 Berry 在房間陪你；完成後可以餵牠、摸摸牠、佈置小屋，或記下一次運動。</p>
         <p>中斷一天不會扣掉已經得到的進度，適合不想被連續天數追著跑的人。</p>
         <a class="cta-button" href="https://play.formecore.com/">免費開始玩 Play.formecore.com</a>
       </aside>
@@ -250,7 +253,7 @@
               <td><a href="https://play.formecore.com/">Play.formecore.com</a></td>
               <td><span class="tag">瀏覽器</span><span class="tag">免帳號</span></td>
               <td>免費</td>
-              <td>專注計時和運動記錄放在同一個小世界</td>
+              <td>專注、運動、照顧 Berry 和佈置小屋都在同一個世界</td>
               <td>想打開網頁就開始，不想安裝 App 的人</td>
               <td>進度留在目前瀏覽器，不會自動跨裝置同步</td>
             </tr>
@@ -317,13 +320,16 @@
       <section class="pick featured">
         <div class="best-for">FORMECORE 推薦給：想立刻開始，又不想被習慣 App 催促的人</div>
         <h3>1. Play.formecore.com：免下載，把專注和運動放進同一間小屋</h3>
-        <figure class="app-shot"><img src="images/screenshots/play-formecore-ui.jpg" width="590" height="1280" loading="lazy" alt="Play.formecore.com 真實手機畫面，貓咪 Berry 坐在客廳，畫面包含專注、運動、餵食與每日任務功能"><figcaption>Play.formecore.com 實際手機畫面：貓咪 Berry、專注、運動、照顧和每日任務都集中在同一頁。</figcaption></figure>
-        <p>打開 Play.formecore.com 就能開始。選 25/5、50/10、15/3 或自訂時間，不必安裝，也不必先交出信箱。完成一段專注後，陪伴點數、寶物和回憶會慢慢留在這間小屋裡。</p>
-        <p>除了計時，你還可以用倒數、計時或手動次數記錄運動，再回來餵食、摸摸或陪 Berry 玩。專注和活動紀錄在同一頁，少切換一個 App，用起來更順手。</p>
+        <div class="shot-pair">
+          <figure class="app-shot"><img src="images/screenshots/play-formecore-ui.jpg" width="590" height="1280" loading="lazy" alt="Play.formecore.com 真實手機畫面，貓咪 Berry 坐在粉紅客廳，畫面包含專注、運動、餵食與每日任務功能"><figcaption>專注、運動、照顧和每日任務都集中在同一頁。</figcaption></figure>
+          <figure class="app-shot"><img src="images/screenshots/play-formecore-room-decor.jpg" width="590" height="1280" loading="lazy" alt="Play.formecore.com 佈置小屋後的真實手機畫面，客廳換上綠色牆紙、窗簾、掛鐘、彩旗、地毯與貓跳台"><figcaption>同一間小屋可以換上牆紙、窗簾、掛鐘、彩旗、地毯和貓跳台。</figcaption></figure>
+        </div>
+        <p>打開 Play.formecore.com 就能開始。選 25/5、50/10、15/3 或自訂時間，不必安裝，也不必先交出信箱。完成一次專注或運動後，Berry 會帶小禮物回來，陪伴點數、寶物和回憶也會慢慢留在這間小屋裡。</p>
+        <p>除了計時，你還可以用倒數、計時或手動次數記錄運動，再回來餵食、摸摸或陪 Berry 玩。小屋也能自己佈置，牆紙、窗簾、掛鐘、地毯和貓跳台會讓每次回來多一點變化。專注、活動紀錄和養成在同一頁，少切換一個 App，用起來更順手。</p>
         <p>如果你曾因為斷掉一天就不想再打開習慣 App，Play.formecore.com 的設計會比較輕鬆。漏掉一天、提早結束，或沒有完成每日任務，都不會拿走已經得到的進度，也不會讓 Berry 生病。</p>
         <p>它的不足也和這種輕量設計綁在一起：資料目前存在瀏覽器裡。換電腦、換瀏覽器，進度不會自己跟過去，需要手動備份與還原。手機鎖屏後，瀏覽器的背景限制也可能讓提示音延遲。</p>
         <p class="price">價格：免費。</p>
-        <div class="product-score"><div class="score-copy"><h4>Play.formecore.com 快速評分</h4><ul class="score-list"><li><span>上手速度</span><span>5/5</span></li><li><span>專注工具</span><span>4/5</span></li><li><span>寵物養成</span><span>3/5</span></li></ul><p class="score-total">免安裝和低壓設計是強項；跨裝置與社交仍是缺口。</p></div>
+        <div class="product-score"><div class="score-copy"><h4>Play.formecore.com 快速評分</h4><ul class="score-list"><li><span>上手速度</span><span>5/5</span></li><li><span>專注工具</span><span>4/5</span></li><li><span>寵物養成</span><span>4/5</span></li></ul><p class="score-total">Berry 會帶回小禮物，也能照顧牠和佈置小屋；跨裝置與社交仍是缺口。</p></div>
         </div>
         <a class="cta-button" href="https://play.formecore.com/">現在免費體驗 Play.formecore.com</a>
       </section>

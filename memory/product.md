@@ -12,6 +12,9 @@ movement sessions without punishing missed days.
 - Movement can be recorded by elapsed time, countdown segments, or manual
   repetitions and sets.
 - Completing activities can award companion points, treasures, and memories.
+- After a completed focus or movement session, Berry can return with a small gift.
+- Players can decorate the room with items such as wallpaper, curtains, clocks,
+  rugs, banners, and cat furniture.
 - Missing a day, ending early, or missing a daily goal does not remove existing
   progress or make the pet sick.
 - No account is required. The current version stores progress in the user's

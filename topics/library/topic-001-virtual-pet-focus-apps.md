@@ -46,7 +46,7 @@ demand_evidence: observed
 
 ## Product bridge
 
-Play.formecore.com 可作为“浏览器直接使用、免账号、同时记录专注与运动”的候选之一；Berry 是游戏里的猫咪角色。
+Play.formecore.com 可作为“浏览器直接使用、免账号、同时记录专注与运动，并可照顾 Berry、布置小屋”的候选之一；完成专注或运动后 Berry 会带回小礼物。Berry 是游戏里的猫咪角色。
 
 ## Evidence required before drafting
 

@@ -26,6 +26,7 @@ resized to a maximum edge of 1600 pixels and exported as JPEG at quality 82.
 The `screenshots/` directory contains product images checked on 2026-11-08:
 
 - `play-formecore-ui.jpg`: current Play.formecore.com mobile product screenshot supplied by FORMECORE; Berry is the cat character shown in it.
+- `play-formecore-room-decor.jpg`: current Play.formecore.com screenshot supplied by FORMECORE, showing a decorated room with alternate wallpaper, curtains, clock, rug, banner, and cat furniture.
 - `play-formecore-qa.png`: earlier Play.formecore.com QA capture retained as a reference asset.
 - `nela.webp`: Nela official website.
 - `study-bunny.png`: Study Bunny's official Google Play listing.
