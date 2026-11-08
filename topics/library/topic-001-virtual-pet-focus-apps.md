@@ -8,9 +8,12 @@ source: initial
 discovery_run: initial
 status: review
 content_stage: blog-draft-complete
-article_expression: six-axis-radar-comparison
+article_expression: comparison-with-compact-scorecards
 humanizer_pass: complete
 humanizer_source: https://github.com/blader/humanizer
+content_quality_score: 92
+ai_pattern_risk: 15
+content_score_date: 2026-11-08
 score: 91
 decision: priority
 hard_gate: pass
@@ -63,6 +66,7 @@ Berry 可作为“浏览器直接使用、免账号、同时记录专注与运�
 | Xiaohongshu | 封面＋六张选择卡＋原生正文 | planned |
 | Instagram | 七款产品比较轮播＋caption | planned |
 | YouTube Shorts | 60 秒按需求选工具脚本 | planned |
+| Threads | 七帖原生串文＋产品截图 | draft |
 
 ## Production checklist
 

@@ -17,9 +17,21 @@ jobs:
   discover:
     runs-on: ubuntu-latest
     steps:
+      - name: Create unprivileged Codex user
+        run: |
+          sudo adduser --system --home /home/codexagent --shell /bin/bash --group codexagent
+          sudo usermod -a -G codexagent runner
+          sudo usermod -a -G runner codexagent
+
       - uses: actions/checkout@v5
         with:
           persist-credentials: false
+
+      - name: Share workspace with Codex user
+        run: |
+          sudo chown -R runner:codexagent "$GITHUB_WORKSPACE"
+          sudo chmod -R g+rwX "$GITHUB_WORKSPACE"
+          sudo find "$GITHUB_WORKSPACE" -type d -exec chmod g+s {} +
 
       - name: Brisbane date
         id: date
@@ -83,6 +95,8 @@ jobs:
           codex-args: "--search"
           model: "gpt-6.1-terra"
           effort: "medium"
+          safety-strategy: "unprivileged-user"
+          codex-user: "codexagent"
 
       - name: Validate the five daily topics
         id: validate

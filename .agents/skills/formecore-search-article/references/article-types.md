@@ -12,20 +12,16 @@ Use when the query contains `比較`, `vs`, `哪個`, price, platform, or fit.
 - Give each option a best-fit reader and one decision-changing limitation.
 - Prefer multiple use-case winners to a false universal champion.
 
-## Six-axis radar comparison
+## Compact product scorecard
 
-Use when readers benefit from seeing the shape of each option rather than one
-total rank. It works well for games, apps, tools, and products with meaningful
-trade-offs.
+Use when readers benefit from a quick visual check beneath each option.
 
-Define six dimensions for the specific topic. Example app dimensions include:
+Choose only the dimensions that materially affect this decision. Example app
+dimensions include:
 
 1. onboarding speed;
 2. core task depth;
 3. game or companion depth;
-4. cross-device use;
-5. low-pressure experience;
-6. social or collaborative use.
 
 Rules:
 
@@ -33,11 +29,9 @@ Rules:
 - State whether scores come from published features, hands-on tests, or both.
 - Score every item with the same definitions and evidence date.
 - Call scores `editorial fit` or `use-case fit`, not scientific measurements.
-- Show the six numeric scores in text next to the chart. The article must remain
-  understandable if SVG, canvas, CSS, or JavaScript fails.
-- Keep the chart accessible and responsive. Code-native SVG is preferred over
-  a raster chart.
-- Explain the strongest and weakest dimension in prose beneath each item.
+- Show every numeric score as text. Do not require a chart or JavaScript.
+- Keep the card compact enough that it does not interrupt the article.
+- Explain the most important strength and weakness in prose beneath each item.
 - A summed score may help orientation, but it must not override a reader's
   platform or use-case constraint.
 - Do not add decimal precision that the evidence cannot support.

@@ -20,3 +20,19 @@ not screenshots of any compared product.
 
 The source PNGs remain in Codex's generated-image store. Project copies were
 resized to a maximum edge of 1600 pixels and exported as JPEG at quality 82.
+
+## Official product screenshots
+
+The `screenshots/` directory contains product images checked on 2026-11-08:
+
+- `berry.png`: current FORMECORE Berry QA capture from the product workspace.
+- `nela.webp`: Nela official website.
+- `study-bunny.png`: Study Bunny's official Google Play listing.
+- `boko.jpg`: Boko official website.
+- `purrminal.png`: Purrminal official website Open Graph product image.
+- `yappie.png`: Yappie official product guide.
+- `quiet-paws.webp`: Quiet Paws official website.
+
+These images support editorial identification and comparison. Keep each source
+link in the article caption, do not modify the interface shown, and recheck the
+asset when the article is refreshed.

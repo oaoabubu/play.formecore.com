@@ -1,6 +1,6 @@
 ---
 name: formecore-search-article
-description: Turn an approved FORMECORE topic SoT into a sourced Chinese search article, choose a useful editorial presentation such as a comparison, radar profile, roundup, how-to, or explainer, and run a mandatory blader/humanizer prose pass before delivery. Use when drafting or revising blog content for play.formecore.com; do not use for topic discovery alone or short social posts.
+description: Turn an approved FORMECORE topic SoT into a sourced Chinese search article, choose a useful editorial presentation such as a comparison, scorecard, roundup, how-to, or explainer, and run a mandatory blader/humanizer prose pass before delivery. Use when drafting or revising blog content for play.formecore.com; do not use for topic discovery alone or short social posts.
 ---
 
 # FORMECORE search article
@@ -28,9 +28,8 @@ Read [references/article-types.md](references/article-types.md) before choosing
 the primary presentation. Pick the type that makes the reader's decision or
 answer easiest to see. Do not force every topic into a listicle.
 
-Use a six-axis radar comparison only when the same six dimensions make sense
-for every item and each score can be traced to published facts or a documented
-test. The chart must have a visible text equivalent and a short scoring note.
+Use a compact scorecard only when the same few dimensions make sense for every
+item and each score can be traced to published facts or a documented test.
 
 ## Draft requirements
 

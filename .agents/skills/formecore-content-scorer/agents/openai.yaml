@@ -1,0 +1,4 @@
+interface:
+  display_name: "FORMECORE Content Scorer"
+  short_description: "Score article quality and AI-writing-pattern risk"
+  default_prompt: "Score this FORMECORE article for content quality and observable AI-writing-pattern risk, with evidence and revision priorities."
