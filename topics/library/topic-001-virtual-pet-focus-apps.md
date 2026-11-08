@@ -6,8 +6,11 @@ created_on: 2026-11-08
 updated_on: 2026-11-08
 source: initial
 discovery_run: initial
-status: selected
-content_stage: planned
+status: review
+content_stage: blog-draft-complete
+article_expression: six-axis-radar-comparison
+humanizer_pass: complete
+humanizer_source: https://github.com/blader/humanizer
 score: 91
 decision: priority
 hard_gate: pass
@@ -56,17 +59,17 @@ Berry 可作为“浏览器直接使用、免账号、同时记录专注与运�
 
 | Platform | Deliverable | Status |
 |---|---|---|
-| play.formecore.com/blog | 完整排名、方法、比较表、FAQ | planned |
+| play.formecore.com/blog | 完整排名、方法、比较表、FAQ | draft |
 | Xiaohongshu | 封面＋六张选择卡＋原生正文 | planned |
 | Instagram | 七款产品比较轮播＋caption | planned |
 | YouTube Shorts | 60 秒按需求选工具脚本 | planned |
 
 ## Production checklist
 
-- [ ] Sources verified
+- [x] Sources verified
 - [ ] Topic SoT approved
-- [ ] Blog brief
-- [ ] Blog draft
+- [x] Blog brief
+- [x] Blog draft
 - [ ] Social adaptations
 - [ ] Editorial and claims review
 - [ ] Publish approval

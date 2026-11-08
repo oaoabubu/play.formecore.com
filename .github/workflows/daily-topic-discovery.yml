@@ -81,6 +81,8 @@ jobs:
           permission-profile: ":workspace"
           prompt-file: .prompt.md
           codex-args: "--search"
+          model: "gpt-6.1-terra"
+          effort: "medium"
 
       - name: Validate the five daily topics
         id: validate

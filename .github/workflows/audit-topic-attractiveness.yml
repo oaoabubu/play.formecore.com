@@ -1,0 +1,90 @@
+name: Audit current topic attractiveness
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: topic-attractiveness-audit
+  cancel-in-progress: false
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          persist-credentials: false
+
+      - name: Brisbane run id
+        id: run
+        run: |
+          echo "date=$(TZ=Australia/Brisbane date +%F)" >> "$GITHUB_OUTPUT"
+          echo "stamp=$(TZ=Australia/Brisbane date +%Y%m%d-%H%M%S)" >> "$GITHUB_OUTPUT"
+
+      - name: Build audit prompt
+        env:
+          RUN_DATE: ${{ steps.run.outputs.date }}
+          RUN_STAMP: ${{ steps.run.outputs.stamp }}
+        run: |
+          cat > .prompt.md <<EOF
+          Today is ${RUN_DATE} in Australia/Brisbane.
+
+          Read AGENTS.md, memory/, every current topic SoT in topics/library/,
+          and the complete \$formecore-topic-scorer skill with its scoring
+          rubric. Audit the 10 existing promotional topics; do not generate new
+          topics and do not change their SoT files or the selection queue.
+
+          For each topic, independently evaluate:
+          - attraction and reason to keep reading;
+          - one visible, defensible highlight;
+          - directness and natural human language;
+          - whether the title reveals the expected contents;
+          - plausible search intent and demand evidence;
+          - product relevance, usefulness, truthfulness, and clickbait risk.
+
+          Recalculate all 11 rubric dimensions and the total out of 100. Show
+          the original score beside the audit score. State pass, rewrite, or
+          reject; give one concise diagnosis and a suggested title only when it
+          is materially better. Do not invent search volume. Use current public
+          sources for category and competitor evidence, and include URLs.
+
+          Write the full Traditional Chinese audit to
+          audits/${RUN_STAMP}-topic-attractiveness.md. Include a ranked summary,
+          all 10 topic evaluations, the strongest three, the weakest three,
+          and concrete next actions. End the file with:
+          "Model: gpt-6.1-terra · Effort: medium".
+          EOF
+
+      - name: Run independent topic audit
+        id: codex
+        uses: openai/codex-action@v1
+        with:
+          openai-api-key: ${{ secrets.OPENAI_API_KEY }}
+          permission-profile: ":workspace"
+          prompt-file: .prompt.md
+          codex-args: "--search"
+          model: "gpt-6.1-terra"
+          effort: "medium"
+
+      - name: Validate audit artifact
+        env:
+          RUN_STAMP: ${{ steps.run.outputs.stamp }}
+        run: |
+          FILE="audits/${RUN_STAMP}-topic-attractiveness.md"
+          test -s "$FILE"
+          grep -q "gpt-6.1-terra" "$FILE"
+          grep -q "Effort: medium" "$FILE"
+
+      - name: Commit audit report
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RUN_DATE: ${{ steps.run.outputs.date }}
+        run: |
+          git add audits/
+          git config user.name "formecore-topic-bot"
+          git config user.email "formecore-topic-bot@users.noreply.github.com"
+          git commit -m "audit: topic attractiveness ${RUN_DATE}"
+          git push "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git" HEAD:${{ github.ref_name }}

@@ -6,7 +6,7 @@ created_on: 2026-11-08
 updated_on: 2026-11-08
 source: initial
 discovery_run: initial
-status: qualified
+status: selected
 content_stage: planned
 score: 84
 decision: qualified
