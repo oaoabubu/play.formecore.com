@@ -1,6 +1,6 @@
 ---
-id: topic-008-berry-browser-storage
-title: "Berry 的遊戲進度存在哪裡？換手機或瀏覽器前要知道的事"
+id: topic-008-play-formecore-browser-storage
+title: "Play.formecore.com 的遊戲進度存在哪裡？換手機或瀏覽器前要知道的事"
 locale: zh-Hant
 created_on: 2026-11-08
 updated_on: 2026-11-08
@@ -12,11 +12,11 @@ score: 80
 decision: qualified
 hard_gate: pass
 type: trust
-intent_key: berry-browser-storage-and-transfer
+intent_key: play-formecore-browser-storage-and-transfer
 demand_evidence: inferred
 ---
 
-# Berry 的遊戲進度存在哪裡？換手機或瀏覽器前要知道的事
+# Play.formecore.com 的遊戲進度存在哪裡？換手機或瀏覽器前要知道的事
 
 ## Search intent
 
@@ -24,7 +24,7 @@ demand_evidence: inferred
 
 ## Audience and situation
 
-准备换手机、清除浏览器资料、使用无痕模式或更换网址的 Berry 玩家。
+准备换手机、清除浏览器资料、使用无痕模式或更换网址的 Play.formecore.com 玩家。
 
 ## Content promise
 
@@ -32,7 +32,7 @@ demand_evidence: inferred
 
 ## Core answer or viewpoint
 
-Berry 进度保存在当前浏览器；换设备或浏览器不会自动出现，操作前应先导出备份。
+Play.formecore.com 进度保存在当前浏览器；换设备或浏览器不会自动出现，操作前应先导出备份。
 
 ## Hook and distinctive highlight
 
@@ -40,7 +40,7 @@ Berry 进度保存在当前浏览器；换设备或浏览器不会自动出现�
 
 ## Product bridge
 
-内容本身就是 Berry 的信任与帮助页面，并引导使用备份功能。
+内容本身就是 Play.formecore.com 的信任与帮助页面，并引导使用备份功能。
 
 ## Evidence required before drafting
 

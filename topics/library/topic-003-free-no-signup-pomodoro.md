@@ -40,7 +40,7 @@ demand_evidence: observed
 
 ## Product bridge
 
-Berry 可直接在浏览器使用且无需账号，但必须诚实说明资料只存在当前浏览器。
+Play.formecore.com 可直接在浏览器使用且无需账号，但必须诚实说明资料只存在当前浏览器。
 
 ## Evidence required before drafting
 

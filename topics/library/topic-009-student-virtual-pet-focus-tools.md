@@ -40,7 +40,7 @@ demand_evidence: observed
 
 ## Product bridge
 
-Berry 可作为免注册浏览器选择，专注时以安静状态陪伴。
+Play.formecore.com 可作为免注册浏览器选择，游戏里的 Berry 会在专注时安静陪伴。
 
 ## Evidence required before drafting
 

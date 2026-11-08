@@ -42,11 +42,11 @@ demand_evidence: observed
 
 ## Hook and distinctive highlight
 
-不做虚假总冠军，而是实际测试后按使用情境选赢家，并公开 FORMECORE 对 Berry 的利益关系。
+不做虚假总冠军，而是实际测试后按使用情境选赢家，并公开 FORMECORE 对 Play.formecore.com 的利益关系。
 
 ## Product bridge
 
-Berry 可作为“浏览器直接使用、免账号、同时记录专注与运动”的候选之一。
+Play.formecore.com 可作为“浏览器直接使用、免账号、同时记录专注与运动”的候选之一；Berry 是游戏里的猫咪角色。
 
 ## Evidence required before drafting
 
@@ -55,7 +55,7 @@ Berry 可作为“浏览器直接使用、免账号、同时记录专注与运�
 
 ## Claims and boundaries
 
-- 不默认把 Berry 排第一；不得使用没有测试依据的“最佳”。
+- 不默认把 Play.formecore.com 排第一；不得使用没有测试依据的“最佳”。
 - 不把免费试用写成永久免费，也不猜测竞品隐私政策。
 
 ## Platform production plan

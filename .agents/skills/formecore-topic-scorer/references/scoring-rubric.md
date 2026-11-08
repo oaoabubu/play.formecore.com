@@ -10,7 +10,7 @@ A failed gate forces `rewrite` or `reject`, regardless of total score.
 2. **Visible promise:** the reader can predict what the page will contain and what question it answers.
 3. **Single intent:** the title does not combine unrelated searches or promise several incompatible articles.
 4. **Truthful:** the claim, ranking, year, number, comparison, and implied result can be supported.
-5. **Product fit:** the topic has a credible path to Berry or `play.formecore.com`, not just generic traffic.
+5. **Product fit:** the topic has a credible path to Play.formecore.com, not just generic traffic.
 6. **Safe claim:** it does not promise treatment, guaranteed focus, fitness results, or another unsupported outcome.
 7. **Distinct page:** it does not duplicate an existing canonical page; otherwise choose `update` or `merge`.
 
@@ -51,7 +51,7 @@ Never invent search volume. Record the evidence level.
 
 ### 5. Product and audience relevance — 12
 
-- 10–12: directly matches a real Berry feature and a priority user situation.
+- 10–12: directly matches a real Play.formecore.com feature and a priority user situation.
 - 6–9: adjacent problem with a credible product bridge.
 - 1–5: traffic might be relevant, but the product connection is forced.
 - 0: unrelated traffic.

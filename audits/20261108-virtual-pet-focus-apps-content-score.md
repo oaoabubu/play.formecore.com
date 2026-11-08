@@ -15,7 +15,7 @@
 | Truth | pass | 價格、平台與功能連到產品官網或官方商店；未聲稱實測 |
 | Promise match | pass | 比較表和七個產品段落覆蓋功能、價格與適合人群 |
 | Evidence | pass | 文末列七組來源，每款段落加入官方產品畫面 |
-| Disclosure | pass | 首屏後明示 FORMECORE 是 Berry 的製作者 |
+| Disclosure | pass | 首屏後明示 FORMECORE 是 Play.formecore.com 的製作者，Berry 是遊戲裡的貓咪角色 |
 | Claim safety | pass | 頁尾不承諾專注、學習或健康結果 |
 | Reader usability | pass | 答案前置、表格可橫向捲動、產品圖有 alt 與來源文字 |
 | Originality boundary | pass | 正文為原創比較；產品畫面標明官方來源 |
@@ -32,7 +32,7 @@
 | Structure and reading flow | 9 | 10 | 答案、總表、逐款分析、選擇方法、FAQ 順序清楚；七款段落仍有刻意一致的形狀 |
 | Natural expression and sentence craft | 9 | 10 | 經 Humanizer 文件模式檢查，語句具體且長短有變；評分卡仍略帶模板感 |
 | Rhetoric and narrative usefulness | 6 | 8 | 「陪伴還是照顧」和「下載兩天就忘了」能推動判斷，沒有堆疊戲劇語氣 |
-| Trust, fairness, and judgement | 9 | 9 | Berry 利益關係、限制和競品優勢都寫在可見位置 |
+| Trust, fairness, and judgement | 9 | 9 | Play.formecore.com 的利益關係、限制和競品優勢都寫在可見位置 |
 | SEO/GEO extractability | 7 | 7 | 比較表、答案段、FAQ、來源、Article、ItemList 與 FAQ schema 齊全 |
 
 ## AI-writing-pattern risk

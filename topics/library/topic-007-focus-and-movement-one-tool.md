@@ -40,11 +40,11 @@ demand_evidence: inferred
 
 ## Product bridge
 
-Berry 在同一个陪伴空间提供专注、运动时间和次数纪录。
+Play.formecore.com 在同一个陪伴空间提供专注、运动时间和次数纪录，Berry 是其中的猫咪角色。
 
 ## Evidence required before drafting
 
-- 记录 Berry 三种真实使用流程与界面截图。
+- 记录 Play.formecore.com 三种真实使用流程与界面截图。
 - 对照通用计时器和分离工具的功能与限制。
 
 ## Claims and boundaries

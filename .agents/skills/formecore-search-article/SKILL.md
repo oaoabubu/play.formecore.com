@@ -5,7 +5,7 @@ description: Turn an approved FORMECORE topic SoT into a sourced Chinese search 
 
 # FORMECORE search article
 
-Write an article that answers one real search intent, makes Berry's relevance
+Write an article that answers one real search intent, makes Play.formecore.com's relevance
 clear without disguising FORMECORE's interest, and leaves an editor with a
 traceable draft rather than unsupported marketing copy.
 
@@ -41,8 +41,9 @@ item and each score can be traced to published facts or a documented test.
 - Describe who each option fits and the meaningful limitation that could change
   the choice.
 - Link every current product fact to a first-party source when practical.
-- When Berry appears beside competitors, disclose that FORMECORE makes Berry.
-  Apply the same comparison dimensions and do not crown Berry by default.
+- When Play.formecore.com appears beside competitors, disclose that FORMECORE makes it
+  and that Berry is its cat character. Apply the same comparison dimensions and do not
+  crown Play.formecore.com by default.
 - Respect `memory/product.md` claim boundaries. Do not promise treatment,
   guaranteed focus, productivity, habit, fitness, or health outcomes.
 - Use accessible HTML when HTML is requested: one `h1`, logical headings,

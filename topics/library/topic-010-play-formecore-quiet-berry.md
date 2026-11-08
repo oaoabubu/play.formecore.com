@@ -1,6 +1,6 @@
 ---
-id: topic-010-quiet-berry-focus-design
-title: "為什麼 Berry 專注時只安靜睡覺，而不會一直打斷你？"
+id: topic-010-play-formecore-quiet-berry
+title: "為什麼 Play.formecore.com 裡的 Berry 專注時只安靜睡覺？"
 locale: zh-Hant
 created_on: 2026-11-08
 updated_on: 2026-11-08
@@ -16,11 +16,11 @@ intent_key: quiet-virtual-pet-focus-design
 demand_evidence: inferred
 ---
 
-# 為什麼 Berry 專注時只安靜睡覺，而不會一直打斷你？
+# 為什麼 Play.formecore.com 裡的 Berry 專注時只安靜睡覺？
 
 ## Search intent
 
-使用者想了解虚拟宠物专注工具是否会造成干扰，以及 Berry 如何处理互动。
+使用者想了解虚拟宠物专注工具是否会造成干扰，以及 Play.formecore.com 里的猫咪 Berry 如何处理互动。
 
 ## Audience and situation
 
@@ -28,11 +28,11 @@ demand_evidence: inferred
 
 ## Content promise
 
-解释 Berry 的安静陪伴设计、专注中可互动范围、完成后的反馈和设计取舍。
+解释 Play.formecore.com 里 Berry 的安静陪伴设计、专注中可互动范围、完成后的反馈和设计取舍。
 
 ## Core answer or viewpoint
 
-陪伴不等于持续互动；Berry 把庆祝和奖励留到活动完成后，让专注阶段保持安静。
+陪伴不等于持续互动；Play.formecore.com 把 Berry 的庆祝和奖励留到活动完成后，让专注阶段保持安静。
 
 ## Hook and distinctive highlight
 
@@ -40,7 +40,7 @@ demand_evidence: inferred
 
 ## Product bridge
 
-直接解释 Berry 的核心体验，并链接到可立即开始的专注入口。
+直接解释 Play.formecore.com 的核心体验，并链接到可立即开始的专注入口。
 
 ## Evidence required before drafting
 

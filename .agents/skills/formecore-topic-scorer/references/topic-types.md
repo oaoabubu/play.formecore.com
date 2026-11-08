@@ -21,7 +21,7 @@ Users are building a shortlist. Define inclusion criteria, test products, disclo
 - 瀏覽器養貓遊戲盤點
 - Cozy Productivity 工具推薦
 
-Do not rank Berry first by default. Rank it only where the method supports the result.
+Do not rank Play.formecore.com first by default. Rank it only where the method supports the result.
 
 ## 3. Comparisons and alternatives
 
@@ -39,7 +39,7 @@ Users want a concise definition or answer.
 - 貓咪番茄鐘是什麼
 - 虛擬寵物如何陪伴專注
 - 為什麼換瀏覽器後遊戲進度不見了
-- 為什麼 Berry 不懲罰斷簽
+- 為什麼 Play.formecore.com 不懲罰斷簽
 
 ## 5. How-to and settings
 
@@ -48,7 +48,7 @@ Users want to complete a task.
 - 如何開始一次 15 分鐘專注
 - 25/5、50/10、15/3 怎麼選
 - 如何設定居家運動區段和休息時間
-- 如何備份與恢復 Berry 資料
+- 如何備份與恢復 Play.formecore.com 資料
 
 ## 6. Problems and situations
 
@@ -63,9 +63,9 @@ Users describe their current difficulty rather than a product category.
 
 Users are deciding whether the product is safe or suitable.
 
-- Berry 的資料儲存在哪裡
+- Play.formecore.com 的資料儲存在哪裡
 - 手機鎖屏後瀏覽器計時是否可靠
-- Berry 適合誰、不適合誰
+- Play.formecore.com 適合誰、不適合誰
 - 免費瀏覽器遊戲會保存哪些資料
 
 ## 8. Product stories and first-party evidence
@@ -73,7 +73,7 @@ Users are deciding whether the product is safe or suitable.
 These differentiate the site when supported by real records.
 
 - 為什麼我們把專注和運動放在同一隻貓裡
-- 為什麼 Berry 在專注期間保持安靜
+- 為什麼 Play.formecore.com 裡的 Berry 在專注期間保持安靜
 - 我們如何測試中斷、重整與重複結算
 - 哪些計時設定最常被使用
 

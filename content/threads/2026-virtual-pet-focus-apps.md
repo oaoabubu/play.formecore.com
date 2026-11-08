@@ -16,7 +16,7 @@
 
 想打開網頁就開始：
 
-Berry：免安裝、免帳號，還能一起記專注和運動。進度留在瀏覽器，要自己備份。
+Play.formecore.com：免安裝、免帳號，還能一起記專注和運動。Berry 是遊戲裡陪你的貓咪。進度留在瀏覽器，要自己備份。
 
 Quiet Paws：兩隻狗陪你計時，第一次載入後可離線。它不會因為你中斷就讓寵物生病，不過正式付費方案還沒上線。
 
@@ -61,7 +61,7 @@ Study Bunny 是這組裡最成熟的老牌選擇。
 完整功能、價格、真實 App 畫面和限制整理在這裡：
 https://oaoabubu.github.io/play.formecore.com/blog/2026-virtual-pet-focus-apps/
 
-利益關係說明：Berry 是 FORMECORE 製作的產品，所以文章裡也把它的本機儲存和跨裝置限制寫清楚了。
+利益關係說明：Play.formecore.com 是 FORMECORE 製作的遊戲，Berry 是遊戲裡的貓咪角色。文章也把本機儲存和跨裝置限制寫清楚了。
 
 ## 發布備註
 

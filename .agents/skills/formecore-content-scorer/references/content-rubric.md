@@ -9,7 +9,7 @@ Any failed gate makes the result `blocked` or `rewrite` regardless of points.
 2. **Promise match:** the body answers the title's primary search intent.
 3. **Evidence:** consequential current claims have traceable sources.
 4. **Disclosure:** a material commercial relationship, including FORMECORE's
-   ownership of Berry, is visible where it could affect trust.
+   ownership of Play.formecore.com, is visible where it could affect trust.
 5. **Claim safety:** no treatment, productivity, learning, fitness, financial,
    or health guarantee unsupported by evidence.
 6. **Reader usability:** the main answer is accessible on mobile and is not

@@ -40,7 +40,7 @@ demand_evidence: observed
 
 ## Product bridge
 
-Berry 是浏览器型猫咪番茄钟，并明确说明本机储存与锁屏提示限制。
+Play.formecore.com 是浏览器型猫咪番茄钟，Berry 是其中的猫咪角色；内容需明确说明本机储存与锁屏提示限制。
 
 ## Evidence required before drafting
 

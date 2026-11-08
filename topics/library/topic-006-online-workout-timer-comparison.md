@@ -40,7 +40,7 @@ demand_evidence: inferred
 
 ## Product bridge
 
-Berry 支持正计时、倒数、分段与手动次数记录，但不提供个性化运动处方。
+Play.formecore.com 支持正计时、倒数、分段与手动次数记录，但不提供个性化运动处方。
 
 ## Evidence required before drafting
 

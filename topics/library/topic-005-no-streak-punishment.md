@@ -40,12 +40,12 @@ demand_evidence: inferred
 
 ## Product bridge
 
-Berry 保存活动纪录，但缺席、提前结束或未达目标不会扣除既有进度。
+Play.formecore.com 保存活动纪录，但缺席、提前结束或未达目标不会扣除既有进度。
 
 ## Evidence required before drafting
 
 - 核对被收录工具的连续纪录、宠物状态和暂停机制。
-- 准备 Berry 中断与提前结束后的实际画面和测试纪录。
+- 准备 Play.formecore.com 中断与提前结束后的实际画面和测试纪录。
 
 ## Claims and boundaries
 

@@ -40,12 +40,12 @@ demand_evidence: observed
 
 ## Product bridge
 
-以 Berry 的安静状态、活动纪录和温和奖励示范一种低干扰设计。
+以 Play.formecore.com 里的 Berry、活动纪录和温和奖励示范一种低干扰设计。
 
 ## Evidence required before drafting
 
 - 收集不同产品对虚拟宠物与计时循环的官方描述。
-- 使用 Berry 产品截图证明实际互动方式。
+- 使用 Play.formecore.com 产品截图证明实际互动方式。
 
 ## Claims and boundaries
 

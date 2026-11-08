@@ -40,7 +40,7 @@ Why this angle is worth opening and what makes it different without clickbait.
 
 ## Product bridge
 
-The honest connection to Berry and the most relevant playable feature.
+The honest connection to Play.formecore.com and the most relevant playable feature.
 
 ## Evidence required before drafting
 
