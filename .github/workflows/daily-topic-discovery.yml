@@ -92,7 +92,6 @@ jobs:
           openai-api-key: ${{ secrets.OPENAI_API_KEY }}
           permission-profile: ":workspace"
           prompt-file: .prompt.md
-          codex-args: "--search"
           model: "gpt-6.1-terra"
           effort: "medium"
           safety-strategy: "unprivileged-user"
