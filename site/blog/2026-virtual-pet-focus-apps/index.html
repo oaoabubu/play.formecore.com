@@ -121,6 +121,28 @@
     .quick { border-left-color: var(--sage); background: var(--soft); }
     .quick ul { margin: .5rem 0 0; padding-left: 1.25rem; }
     .quick li + li { margin-top: .45rem; }
+    .berry-cta {
+      margin: 1.4rem 0 2.2rem;
+      padding: 1.3rem;
+      border: 1px solid #e6b7ba;
+      border-radius: 18px;
+      background: linear-gradient(135deg, #fff4f2, #f7eee8);
+      box-shadow: 0 12px 30px rgba(91, 48, 55, .08);
+    }
+    .berry-cta h2, .berry-cta h3 { margin: 0 0 .55rem; color: #743b45; }
+    .berry-cta p { margin: .45rem 0; }
+    .cta-button {
+      display: inline-block;
+      margin-top: .65rem;
+      padding: .75rem 1.05rem;
+      border-radius: 999px;
+      background: #ad4f61;
+      color: #fff;
+      font: 700 .92rem/1.2 ui-sans-serif, system-ui, sans-serif;
+      text-decoration: none;
+    }
+    .cta-button:hover { background: #8f3f50; }
+    .cta-button:focus-visible { outline: 3px solid #1a5f80; outline-offset: 3px; }
     figure { margin: 3rem calc(50% - 50vw); }
     figure img { max-height: 720px; object-fit: cover; }
     figcaption { max-width: 820px; margin: .5rem auto 0; padding: 0 1.25rem; color: var(--muted); font: .8rem/1.5 ui-sans-serif, system-ui, sans-serif; }
@@ -134,6 +156,7 @@
     tr:last-child td { border-bottom: 0; }
     .tag { display: inline-block; margin: .15rem .2rem .15rem 0; padding: .15rem .5rem; border-radius: 999px; background: #edf2ec; font-size: .76rem; white-space: nowrap; }
     .pick { margin: 1.6rem 0; padding: 1.2rem 1.3rem; border: 1px solid var(--line); border-radius: 16px; background: #fff; }
+    .pick.featured { border: 2px solid #d9939e; box-shadow: 0 14px 34px rgba(91, 48, 55, .1); }
     .pick h3 { margin: 0 0 .5rem; }
     .pick p { margin: .55rem 0; }
     .best-for { color: var(--coral); font: 700 .84rem/1.4 ui-sans-serif, system-ui, sans-serif; }
@@ -201,6 +224,13 @@
           <li>喜歡狗狗陪伴，討厭斷掉連續天數後被懲罰：試 <a href="https://quietpaws.app/">Quiet Paws</a>。</li>
         </ul>
       </section>
+
+      <aside class="berry-cta" aria-labelledby="try-berry-top">
+        <h2 id="try-berry-top">想先試一款？Berry 打開網頁就能開始</h2>
+        <p>不用下載，也不用註冊。選一段專注時間，讓 Berry 在房間裡陪你；完成後再餵牠、摸摸牠，或記下一次運動。</p>
+        <p>中斷一天不會扣掉已經得到的進度，適合不想被連續天數追著跑的人。</p>
+        <a class="cta-button" href="https://play.formecore.com/">免費開始陪 Berry 專注</a>
+      </aside>
 
       <h2>七款工具放在一起比較</h2>
       <div class="table-wrap" role="region" aria-label="虛擬寵物專注 App 比較表" tabindex="0">
@@ -284,15 +314,18 @@
       <h2>每一款實際適合什麼人</h2>
       <p class="score-method">每款下方有三項快速評分：上手速度、專注工具和寵物養成。它們是依 2026 年 11 月 8 日官方公開功能做的使用情境判斷，不是實驗室品質分數。1 分代表功能很少或不適用，5 分代表這是產品的明顯強項。</p>
 
-      <section class="pick">
-        <div class="best-for">適合：瀏覽器直接使用，也想記錄運動</div>
-        <h3>1. Berry</h3>
+      <section class="pick featured">
+        <div class="best-for">FORMECORE 推薦給：想立刻開始，又不想被習慣 App 催促的人</div>
+        <h3>1. Berry：免下載，把專注和運動放進同一間小屋</h3>
         <figure class="app-shot"><img src="images/screenshots/berry-ui.jpg" width="590" height="1280" loading="lazy" alt="Berry 真實手機產品畫面，布偶貓坐在客廳，畫面包含專注、運動、餵食與每日任務功能"><figcaption>Berry 實際手機畫面：專注、運動、照顧和每日任務都集中在同一頁。</figcaption></figure>
-        <p>Berry 的入口很輕。打開網頁就能用 25/5、50/10、15/3 或自訂計時，不用先交出信箱。除了專注，它也能用倒數、計時或手動次數記錄運動。完成活動會得到陪伴點數、寶物和回憶。</p>
+        <p>打開 Berry 的網頁就能開始。選 25/5、50/10、15/3 或自訂時間，不必安裝，也不必先交出信箱。完成一段專注後，陪伴點數、寶物和回憶會慢慢留在這間小屋裡。</p>
+        <p>除了計時，你還可以用倒數、計時或手動次數記錄運動，再回來餵食、摸摸或陪 Berry 玩。專注和活動紀錄在同一頁，少切換一個 App，用起來更順手。</p>
+        <p>如果你曾因為斷掉一天就不想再打開習慣 App，Berry 的設計會比較輕鬆。漏掉一天、提早結束，或沒有完成每日任務，都不會拿走已經得到的進度，也不會讓寵物生病。</p>
         <p>它的不足也和這種輕量設計綁在一起：資料目前存在瀏覽器裡。換電腦、換瀏覽器，進度不會自己跟過去，需要手動備份與還原。手機鎖屏後，瀏覽器的背景限制也可能讓提示音延遲。</p>
         <p class="price">價格：免費。</p>
         <div class="product-score"><div class="score-copy"><h4>Berry 快速評分</h4><ul class="score-list"><li><span>上手速度</span><span>5/5</span></li><li><span>專注工具</span><span>4/5</span></li><li><span>寵物養成</span><span>3/5</span></li></ul><p class="score-total">免安裝和低壓設計是強項；跨裝置與社交仍是缺口。</p></div>
         </div>
+        <a class="cta-button" href="https://play.formecore.com/">現在免費體驗 Berry</a>
       </section>
 
       <section class="pick">
@@ -379,6 +412,12 @@
       <p>不想安裝，也不想先註冊，Berry 和 Quiet Paws 都能直接在瀏覽器開始。Berry 多了運動記錄，Quiet Paws 的狗狗照顧和離線 PWA 更完整。兩者都要留意備份，因為「資料留在本機」也表示換裝置時得自己搬。</p>
 
       <aside class="note"><strong>一個小測試：</strong>先用免費版本完成三次專注，再問自己兩件事：我有沒有因為寵物多做一次專注？我有沒有為了照顧、領獎或維持連續天數，反而分心？第二題如果常答「有」，換一款更安靜的工具。</aside>
+
+      <aside class="berry-cta" aria-labelledby="try-berry-bottom">
+        <h2 id="try-berry-bottom">不想再比較了，就先陪 Berry 完成一段專注</h2>
+        <p>Berry 免費、免帳號，手機和電腦瀏覽器都能直接打開。先試一次，再決定這種安靜陪伴是不是你願意每天回來的方式。</p>
+        <a class="cta-button" href="https://play.formecore.com/">打開 Berry，立即開始</a>
+      </aside>
 
       <h2>常見問題</h2>
       <h3>免費的虛擬寵物專注 App 怎麼選？</h3>
