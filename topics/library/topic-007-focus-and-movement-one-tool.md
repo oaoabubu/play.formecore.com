@@ -12,6 +12,8 @@ score: 82
 decision: qualified
 hard_gate: pass
 type: use-case
+content_type: use-case-comparison
+primary_expression: day-in-the-life-workflow-comparison
 intent_key: focus-and-movement-one-tool
 demand_evidence: inferred
 ---
@@ -40,11 +42,11 @@ demand_evidence: inferred
 
 ## Product bridge
 
-Play.formecore.com 在同一个陪伴空间提供专注、运动时间和次数纪录，Berry 是其中的猫咪角色。
+FORMECORE × Berry 在同一个陪伴空间提供专注、运动时间和次数纪录，Berry 是其中的猫咪角色。
 
 ## Evidence required before drafting
 
-- 记录 Play.formecore.com 三种真实使用流程与界面截图。
+- 记录 FORMECORE × Berry 三种真实使用流程与界面截图。
 - 对照通用计时器和分离工具的功能与限制。
 
 ## Claims and boundaries
@@ -54,12 +56,18 @@ Play.formecore.com 在同一个陪伴空间提供专注、运动时间和次数�
 
 ## Platform production plan
 
-| Platform | Deliverable | Status |
-|---|---|---|
-| play.formecore.com/blog | 三方案比较＋使用情境 | planned |
-| Xiaohongshu | “一天一个陪伴工具”六卡 | planned |
-| Instagram | 三种工具组合轮播 | planned |
-| YouTube Shorts | 专注到伸展的一日流程 | planned |
+| Platform | Fit | Deliverable | Status |
+|---|---|---|---|
+| play.formecore.com/blog | primary | 三方案比較＋使用情境 | planned |
+| Xiaohongshu | primary | 「一天一個陪伴工具」六卡 | planned |
+| WeChat Official Account | secondary | 專注與活動整合工作流 | planned |
+| Medium | secondary | English focus-and-movement workflow | planned |
+| TikTok | primary | 從專注到伸展的一日流程 | planned |
+| Douyin | primary | 工作與運動切換情境短片 | planned |
+| Threads | primary | 一天少開幾個 App 的流程串文 | planned |
+| Instagram | primary | 三種工具組合輪播或 Reel | planned |
+| Facebook | secondary | 日常流程分享＋使用問題 | planned |
+| YouTube Shorts | secondary | 專注到伸展的一日流程 | planned |
 
 ## Production checklist
 

@@ -30,7 +30,8 @@ Every accepted topic is a maintained source of truth, not merely a title. Use
 6. Honest product bridge.
 7. Evidence required before drafting.
 8. Claims and boundaries.
-9. Concrete deliverables and status for every planned platform.
+9. Concrete deliverables, fit (`primary`, `secondary`, or `not-recommended`),
+   and status for every planned platform.
 10. Production checklist.
 
 ## Status lifecycle
@@ -49,6 +50,6 @@ Only the queue script should move active topics between `qualified` and
 ## Platform plan
 
 The SoT records deliverables for `play.formecore.com/blog`, Xiaohongshu,
-Instagram, and YouTube Shorts. Discovery sets them to `planned`; it does not
-draft or publish them. Remove or add a channel only when the project channel
-SoT changes.
+WeChat Official Account, Medium, TikTok, Douyin, Threads, Instagram, Facebook,
+and YouTube Shorts. Discovery sets them to `planned`; it does not draft or
+publish them. Remove or add a channel only when the project channel SoT changes.

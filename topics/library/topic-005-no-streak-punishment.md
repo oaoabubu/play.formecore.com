@@ -12,6 +12,8 @@ score: 85
 decision: priority
 hard_gate: pass
 type: problem
+content_type: problem-roundup
+primary_expression: problem-solution-story-with-checklist
 intent_key: habit-tools-without-streak-punishment
 demand_evidence: inferred
 ---
@@ -40,12 +42,12 @@ demand_evidence: inferred
 
 ## Product bridge
 
-Play.formecore.com 保存活动纪录，但缺席、提前结束或未达目标不会扣除既有进度。
+FORMECORE × Berry 保存活动纪录，但缺席、提前结束或未达目标不会扣除既有进度。
 
 ## Evidence required before drafting
 
 - 核对被收录工具的连续纪录、宠物状态和暂停机制。
-- 准备 Play.formecore.com 中断与提前结束后的实际画面和测试纪录。
+- 准备 FORMECORE × Berry 中断与提前结束后的实际画面和测试纪录。
 
 ## Claims and boundaries
 
@@ -54,12 +56,18 @@ Play.formecore.com 保存活动纪录，但缺席、提前结束或未达目标�
 
 ## Platform production plan
 
-| Platform | Deliverable | Status |
-|---|---|---|
-| play.formecore.com/blog | 问题解决文章＋工具检查表 | planned |
-| Xiaohongshu | “断签后也可以回来”六卡 | planned |
-| Instagram | 惩罚型／温和型设计轮播 | planned |
-| YouTube Shorts | 断签情境短故事脚本 | planned |
+| Platform | Fit | Deliverable | Status |
+|---|---|---|---|
+| play.formecore.com/blog | primary | 問題解決文章＋工具檢查表 | planned |
+| Xiaohongshu | primary | 「斷簽後也可以回來」情緒共鳴六卡 | planned |
+| WeChat Official Account | primary | 斷簽壓力觀點文＋溫和工具盤點 | planned |
+| Medium | secondary | English product-design essay | planned |
+| TikTok | secondary | 斷簽後重新開始的情境短片 | planned |
+| Douyin | secondary | 連續天數壓力短故事 | planned |
+| Threads | primary | 觀點串文＋溫和工具清單 | planned |
+| Instagram | primary | 懲罰型／溫和型設計輪播 | planned |
+| Facebook | primary | 社群經驗討論＋檢查清單 | planned |
+| YouTube Shorts | secondary | 斷簽情境短故事腳本 | planned |
 
 ## Production checklist
 

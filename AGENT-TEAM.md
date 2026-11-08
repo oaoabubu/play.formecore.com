@@ -4,7 +4,7 @@
 
 - **Mission:** turn the highest-priority eligible topic SoT into one sourced
   Traditional Chinese HTML article and one Threads-native draft for
-  Play.formecore.com.
+  FORMECORE × Berry.
 - **Business SoT served:** content objective and conversion action in
   `BUSINESS-SOT.md`.
 - **Allowed inputs:** `BUSINESS-SOT.md`, `memory/`, `topics/`, `site/`,
@@ -20,7 +20,7 @@
   publish, post to Threads, push Git, send messages, spend money, or change
   account permissions.
 - **Revocation path:** pause or delete the Codex automation named
-  `Play.formecore.com daily HTML + Threads` in the Scheduled tab.
+  `FORMECORE × Berry daily HTML + Threads` in the Scheduled tab.
 - **Output:** one article under `site/blog/<slug>/index.html`, permitted local
   images under that article, one Threads draft under `content/threads/`, an
   updated topic SoT, and one content-score audit under `audits/`.

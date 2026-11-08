@@ -12,6 +12,8 @@ score: 89
 decision: priority
 hard_gate: pass
 type: comparison
+content_type: comparison
+primary_expression: platform-decision-guide
 intent_key: cat-pomodoro-platform-comparison
 demand_evidence: observed
 ---
@@ -40,7 +42,7 @@ demand_evidence: observed
 
 ## Product bridge
 
-Play.formecore.com 是浏览器型猫咪番茄钟，Berry 是其中的猫咪角色；内容需明确说明本机储存与锁屏提示限制。
+FORMECORE × Berry 是浏览器型猫咪番茄钟，Berry 是其中的猫咪角色；内容需明确说明本机储存与锁屏提示限制。
 
 ## Evidence required before drafting
 
@@ -54,12 +56,18 @@ Play.formecore.com 是浏览器型猫咪番茄钟，Berry 是其中的猫咪角�
 
 ## Platform production plan
 
-| Platform | Deliverable | Status |
-|---|---|---|
-| play.formecore.com/blog | 三平台比较指南＋选择表 | planned |
-| Xiaohongshu | “你适合哪一种猫咪番茄钟”六卡 | planned |
-| Instagram | 浏览器／手机／桌面轮播 | planned |
-| YouTube Shorts | 三种平台 60 秒选择指南 | planned |
+| Platform | Fit | Deliverable | Status |
+|---|---|---|---|
+| play.formecore.com/blog | primary | 三平台比較指南＋選擇表 | planned |
+| Xiaohongshu | primary | 「你適合哪一種貓咪番茄鐘」六卡 | planned |
+| WeChat Official Account | primary | 瀏覽器、手機、桌面完整選擇指南 | planned |
+| Medium | secondary | English platform decision guide | planned |
+| TikTok | primary | 三平台分屏示範＋快速選擇 | planned |
+| Douyin | primary | 三種貓咪番茄鐘情境演示 | planned |
+| Threads | secondary | 三平台優缺點原生串文 | planned |
+| Instagram | primary | 瀏覽器／手機／桌面輪播 | planned |
+| Facebook | secondary | 社群投票＋選擇清單 | planned |
+| YouTube Shorts | secondary | 三種平台 60 秒選擇指南 | planned |
 
 ## Production checklist
 

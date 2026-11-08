@@ -12,6 +12,8 @@ score: 86
 decision: priority
 hard_gate: pass
 type: explainer
+content_type: explainer
+primary_expression: category-explainer-with-fit-checklist
 intent_key: what-is-virtual-pet-focus-timer
 demand_evidence: observed
 ---
@@ -40,12 +42,12 @@ demand_evidence: observed
 
 ## Product bridge
 
-以 Play.formecore.com 里的 Berry、活动纪录和温和奖励示范一种低干扰设计。
+以 FORMECORE × Berry 里的 Berry、活动纪录和温和奖励示范一种低干扰设计。
 
 ## Evidence required before drafting
 
 - 收集不同产品对虚拟宠物与计时循环的官方描述。
-- 使用 Play.formecore.com 产品截图证明实际互动方式。
+- 使用 FORMECORE × Berry 产品截图证明实际互动方式。
 
 ## Claims and boundaries
 
@@ -54,12 +56,18 @@ demand_evidence: observed
 
 ## Platform production plan
 
-| Platform | Deliverable | Status |
-|---|---|---|
-| play.formecore.com/blog | 定义型支柱文章＋FAQ | planned |
-| Xiaohongshu | “一分钟看懂”六卡解释 | planned |
-| Instagram | 工作原理轮播 | planned |
-| YouTube Shorts | 45 秒定义与示范脚本 | planned |
+| Platform | Fit | Deliverable | Status |
+|---|---|---|---|
+| play.formecore.com/blog | primary | 定義型支柱文章＋FAQ | planned |
+| Xiaohongshu | primary | 「一分鐘看懂」六卡解釋 | planned |
+| WeChat Official Account | primary | 類別科普＋適合／不適合清單 | planned |
+| Medium | primary | English category explainer | planned |
+| TikTok | secondary | 45 秒核心循環示範 | planned |
+| Douyin | secondary | 虛擬寵物計時器一分鐘科普 | planned |
+| Threads | secondary | 定義＋常見誤解串文 | planned |
+| Instagram | primary | 工作原理輪播 | planned |
+| Facebook | secondary | 科普貼文＋使用者情境提問 | planned |
+| YouTube Shorts | secondary | 45 秒定義與示範腳本 | planned |
 
 ## Production checklist
 

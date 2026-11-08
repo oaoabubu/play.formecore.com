@@ -18,6 +18,8 @@ score: 91
 decision: priority
 hard_gate: pass
 type: ranking
+content_type: comparison-ranking
+primary_expression: decision-comparison-with-scorecards
 intent_key: best-virtual-pet-focus-apps
 demand_evidence: observed
 ---
@@ -42,11 +44,11 @@ demand_evidence: observed
 
 ## Hook and distinctive highlight
 
-不做虚假总冠军，而是实际测试后按使用情境选赢家，并公开 FORMECORE 对 Play.formecore.com 的利益关系。
+不做虚假总冠军，而是实际测试后按使用情境选赢家，并公开 FORMECORE 对 FORMECORE × Berry 的利益关系。
 
 ## Product bridge
 
-Play.formecore.com 可作为“浏览器直接使用、免账号、同时记录专注与运动，并可照顾 Berry、布置小屋”的候选之一；完成专注或运动后 Berry 会带回小礼物。Berry 是游戏里的猫咪角色。
+FORMECORE × Berry 可作为“浏览器直接使用、免账号、同时记录专注与运动，并可照顾 Berry、布置小屋”的候选之一；完成专注或运动后 Berry 会带回小礼物。Berry 是游戏里的猫咪角色。
 
 ## Evidence required before drafting
 
@@ -55,18 +57,23 @@ Play.formecore.com 可作为“浏览器直接使用、免账号、同时记录�
 
 ## Claims and boundaries
 
-- 不默认把 Play.formecore.com 排第一；不得使用没有测试依据的“最佳”。
+- 不默认把 FORMECORE × Berry 排第一；不得使用没有测试依据的“最佳”。
 - 不把免费试用写成永久免费，也不猜测竞品隐私政策。
 
 ## Platform production plan
 
-| Platform | Deliverable | Status |
-|---|---|---|
-| play.formecore.com/blog | 完整排名、方法、比较表、FAQ | published |
-| Xiaohongshu | 封面＋六张选择卡＋原生正文 | planned |
-| Instagram | 七款产品比较轮播＋caption | planned |
-| YouTube Shorts | 60 秒按需求选工具脚本 | planned |
-| Threads | 七帖原生串文＋产品截图 | draft |
+| Platform | Fit | Deliverable | Status |
+|---|---|---|---|
+| play.formecore.com/blog | primary | 完整排名、方法、比較表、FAQ | published |
+| Xiaohongshu | primary | 封面＋七張選擇卡＋原生正文 | planned |
+| WeChat Official Account | primary | 七款工具長文比較＋選擇流程 | planned |
+| Medium | secondary | English comparison with ownership disclosure | planned |
+| TikTok | secondary | 45 秒按裝置與需求選 App | planned |
+| Douyin | secondary | 45 秒中文情境選擇影片 | planned |
+| Threads | primary | 七帖原生串文＋產品截圖 | draft |
+| Instagram | primary | 七款產品比較輪播＋caption | planned |
+| Facebook | secondary | 社群版選擇清單＋討論問題 | planned |
+| YouTube Shorts | secondary | 60 秒按需求選工具腳本 | planned |
 
 ## Production checklist
 

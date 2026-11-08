@@ -12,6 +12,8 @@ score: 88
 decision: priority
 hard_gate: pass
 type: roundup
+content_type: verified-roundup-trust
+primary_expression: roundup-with-account-and-storage-table
 intent_key: free-no-signup-online-pomodoro
 demand_evidence: observed
 ---
@@ -40,7 +42,7 @@ demand_evidence: observed
 
 ## Product bridge
 
-Play.formecore.com 可直接在浏览器使用且无需账号，但必须诚实说明资料只存在当前浏览器。
+FORMECORE × Berry 可直接在浏览器使用且无需账号，但必须诚实说明资料只存在当前浏览器。
 
 ## Evidence required before drafting
 
@@ -54,12 +56,18 @@ Play.formecore.com 可直接在浏览器使用且无需账号，但必须诚实�
 
 ## Platform production plan
 
-| Platform | Deliverable | Status |
-|---|---|---|
-| play.formecore.com/blog | 工具盘点＋隐私与保存比较表 | planned |
-| Xiaohongshu | 免注册工具六卡清单 | planned |
-| Instagram | 免费／账号／保存方式轮播 | planned |
-| YouTube Shorts | 三款立即可用工具演示脚本 | planned |
+| Platform | Fit | Deliverable | Status |
+|---|---|---|---|
+| play.formecore.com/blog | primary | 工具盤點＋帳號與保存比較表 | planned |
+| Xiaohongshu | primary | 免註冊工具六卡清單 | planned |
+| WeChat Official Account | primary | 免費工具盤點＋資料保存提醒 | planned |
+| Medium | secondary | English no-signup timer roundup | planned |
+| TikTok | secondary | 三款打開就能用的工具示範 | planned |
+| Douyin | secondary | 免下載免註冊工具實測短片 | planned |
+| Threads | primary | 工具清單＋每款一個限制 | planned |
+| Instagram | primary | 免費／帳號／保存方式輪播 | planned |
+| Facebook | secondary | 社群問答式免註冊工具清單 | planned |
+| YouTube Shorts | secondary | 三款立即可用工具演示腳本 | planned |
 
 ## Production checklist
 

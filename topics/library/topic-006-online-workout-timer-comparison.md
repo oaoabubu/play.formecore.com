@@ -12,6 +12,8 @@ score: 84
 decision: qualified
 hard_gate: pass
 type: comparison
+content_type: comparison-how-to
+primary_expression: scenario-comparison-with-setup-examples
 intent_key: online-workout-timer-modes
 demand_evidence: inferred
 ---
@@ -40,7 +42,7 @@ demand_evidence: inferred
 
 ## Product bridge
 
-Play.formecore.com 支持正计时、倒数、分段与手动次数记录，但不提供个性化运动处方。
+FORMECORE × Berry 支持正计时、倒数、分段与手动次数记录，但不提供个性化运动处方。
 
 ## Evidence required before drafting
 
@@ -54,12 +56,18 @@ Play.formecore.com 支持正计时、倒数、分段与手动次数记录，但�
 
 ## Platform production plan
 
-| Platform | Deliverable | Status |
-|---|---|---|
-| play.formecore.com/blog | 四种计时模式比较＋选择流程 | planned |
-| Xiaohongshu | 运动类型配对六卡 | planned |
-| Instagram | 时间／次数／分段比较轮播 | planned |
-| YouTube Shorts | 三种常见情境演示脚本 | planned |
+| Platform | Fit | Deliverable | Status |
+|---|---|---|---|
+| play.formecore.com/blog | primary | 四種計時模式比較＋選擇流程 | planned |
+| Xiaohongshu | primary | 運動類型配對六卡 | planned |
+| WeChat Official Account | primary | 居家運動記錄模式指南 | planned |
+| Medium | secondary | English timer-mode how-to | planned |
+| TikTok | primary | 時間／次數／分段三情境示範 | planned |
+| Douyin | primary | 三種運動記錄方式實拍短片 | planned |
+| Threads | secondary | 運動類型快速配對串文 | planned |
+| Instagram | primary | 時間／次數／分段比較輪播 | planned |
+| Facebook | secondary | 居家運動計時檢查清單 | planned |
+| YouTube Shorts | secondary | 三種常見情境演示腳本 | planned |
 
 ## Production checklist
 

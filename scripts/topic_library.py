@@ -30,9 +30,24 @@ REQUIRED = {
     "decision",
     "hard_gate",
     "type",
+    "content_type",
+    "primary_expression",
     "intent_key",
     "demand_evidence",
 }
+
+REQUIRED_PLATFORMS = (
+    "play.formecore.com/blog",
+    "Xiaohongshu",
+    "WeChat Official Account",
+    "Medium",
+    "TikTok",
+    "Douyin",
+    "Threads",
+    "Instagram",
+    "Facebook",
+    "YouTube Shorts",
+)
 
 STATUSES = {
     "qualified",
@@ -134,6 +149,11 @@ def validate(topics: list[Topic]) -> list[str]:
         ):
             if heading not in topic.body:
                 errors.append(f"{topic.path}: missing section {heading}")
+        for platform in REQUIRED_PLATFORMS:
+            if f"| {platform} |" not in topic.body:
+                errors.append(
+                    f"{topic.path}: platform production plan missing {platform}"
+                )
     return errors
 
 

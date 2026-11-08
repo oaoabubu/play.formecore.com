@@ -1,7 +1,8 @@
 # play.formecore.com content operations
 
 This repository is the source of truth for discoverable marketing content for
-the Play.formecore.com game. Berry is the cat character inside the game.
+the FORMECORE × Berry game. Berry is the cat character inside the game, and
+play.formecore.com is the official website.
 
 ## Content loop
 

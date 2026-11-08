@@ -12,6 +12,8 @@ score: 79
 decision: qualified
 hard_gate: pass
 type: roundup
+content_type: student-use-case-roundup
+primary_expression: student-scenario-roundup
 intent_key: student-virtual-pet-focus-tools
 demand_evidence: observed
 ---
@@ -40,7 +42,7 @@ demand_evidence: observed
 
 ## Product bridge
 
-Play.formecore.com 可作为免注册浏览器选择，游戏里的 Berry 会在专注时安静陪伴。
+FORMECORE × Berry 可作为免注册浏览器选择，游戏里的 Berry 会在专注时安静陪伴。
 
 ## Evidence required before drafting
 
@@ -54,12 +56,18 @@ Play.formecore.com 可作为免注册浏览器选择，游戏里的 Berry 会在
 
 ## Platform production plan
 
-| Platform | Deliverable | Status |
-|---|---|---|
-| play.formecore.com/blog | 学生情境盘点＋比较表 | planned |
-| Xiaohongshu | 读书陪伴工具六卡 | planned |
-| Instagram | 选择条件轮播 | planned |
-| YouTube Shorts | 三种学生使用情境脚本 | planned |
+| Platform | Fit | Deliverable | Status |
+|---|---|---|---|
+| play.formecore.com/blog | primary | 學生情境盤點＋比較表 | planned |
+| Xiaohongshu | primary | 讀書陪伴工具六卡 | planned |
+| WeChat Official Account | primary | 學生與家長可分享的選擇指南 | planned |
+| Medium | secondary | English student-tool roundup | planned |
+| TikTok | primary | 三種學生讀書情境示範 | planned |
+| Douyin | primary | 自習、休息、獎勵短片 | planned |
+| Threads | secondary | 學生工具選擇串文 | planned |
+| Instagram | primary | 選擇條件輪播或 Reel | planned |
+| Facebook | secondary | 學生／家長社群選擇清單 | planned |
+| YouTube Shorts | secondary | 三種學生使用情境腳本 | planned |
 
 ## Production checklist
 

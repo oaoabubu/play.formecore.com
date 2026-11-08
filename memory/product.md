@@ -1,8 +1,8 @@
-# Product source of truth — Play.formecore.com
+# Product source of truth — FORMECORE × Berry
 
 ## Positioning
 
-Play.formecore.com is a free browser companion game by FORMECORE in Traditional Chinese and
+FORMECORE × Berry is a free browser companion game by FORMECORE in Traditional Chinese and
 English. Berry is the quiet virtual cat inside the game and accompanies focus sessions and
 movement sessions without punishing missed days.
 

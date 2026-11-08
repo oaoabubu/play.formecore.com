@@ -12,6 +12,8 @@ score: 75
 decision: qualified
 hard_gate: pass
 type: roundup
+content_type: roundup
+primary_expression: verified-roundup
 intent_key: unique-search-intent
 demand_evidence: inferred
 ---
@@ -40,7 +42,7 @@ Why this angle is worth opening and what makes it different without clickbait.
 
 ## Product bridge
 
-The honest connection to Play.formecore.com and the most relevant playable feature.
+The honest connection to FORMECORE × Berry and the most relevant playable feature.
 
 ## Evidence required before drafting
 
@@ -53,12 +55,18 @@ The honest connection to Play.formecore.com and the most relevant playable featu
 
 ## Platform production plan
 
-| Platform | Deliverable | Status |
-|---|---|---|
-| play.formecore.com/blog | Search-first article | planned |
-| Xiaohongshu | Cover + six cards + caption | planned |
-| Instagram | Carousel + caption | planned |
-| YouTube Shorts | 45–60 second script + shot list | planned |
+| Platform | Fit | Deliverable | Status |
+|---|---|---|---|
+| play.formecore.com/blog | primary | Search-first article | planned |
+| Xiaohongshu | primary | Cover + six cards + caption | planned |
+| WeChat Official Account | primary | Native long-form article | planned |
+| Medium | secondary | English long-form adaptation | planned |
+| TikTok | secondary | 30–60 second result-first video | planned |
+| Douyin | secondary | 30–60 second Chinese-native video | planned |
+| Threads | primary | Native multi-post thread | planned |
+| Instagram | primary | Carousel or Reel + caption | planned |
+| Facebook | secondary | Community answer, checklist, or story | planned |
+| YouTube Shorts | secondary | 45–60 second script + shot list | planned |
 
 ## Production checklist
 
