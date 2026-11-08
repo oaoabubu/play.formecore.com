@@ -1,0 +1,4 @@
+interface:
+  display_name: "FORMECORE 話題評分器"
+  short_description: "生成、改寫並評估可搜尋、直接且吸引人的產品內容話題"
+  default_prompt: "Use $formecore-topic-scorer to generate and score discoverable content topics for this product."

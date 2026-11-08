@@ -1,0 +1,131 @@
+name: Daily topic discovery and scoring
+
+on:
+  schedule:
+    - cron: "0 19 * * *" # 05:00 Australia/Brisbane (UTC+10, no DST)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: daily-topic-discovery
+  cancel-in-progress: false
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          persist-credentials: false
+
+      - name: Brisbane date
+        id: date
+        run: echo "value=$(TZ=Australia/Brisbane date +%F)" >> "$GITHUB_OUTPUT"
+
+      - name: Check whether today's topics already exist
+        id: existing
+        env:
+          RUN_DATE: ${{ steps.date.outputs.value }}
+        run: |
+          COUNT=$(python3 scripts/topic_library.py daily-count --date "$RUN_DATE")
+          echo "count=$COUNT" >> "$GITHUB_OUTPUT"
+          echo "Existing daily topics: $COUNT"
+
+      - name: Build task prompt
+        if: steps.existing.outputs.count == '0'
+        env:
+          RUN_DATE: ${{ steps.date.outputs.value }}
+        run: |
+          cat > .prompt.md <<EOF
+          Today is ${RUN_DATE} in Australia/Brisbane.
+
+          Read AGENTS.md, memory/, topics/TEMPLATE.md, the complete existing
+          topics/library/, and topics/selection/queue.md. Use
+          \$formecore-topic-scorer in daily discovery mode, including its topic
+          types, scoring rubric, and topic SoT schema.
+
+          Search current public sources. Generate at least 15 candidates
+          internally, reject duplicate search intents, then choose exactly five
+          new Traditional Chinese topics that pass every hard gate and score at
+          least 75/100. Searchability is not verified volume: label evidence
+          measured, observed, inferred, or unverified. Do not force a topic if
+          the evidence or product connection is weak.
+
+          For each accepted topic, create one new file under topics/library/
+          using topics/TEMPLATE.md. Use a unique id beginning
+          topic-${RUN_DATE//-/}- and set source: daily, discovery_run:
+          ${RUN_DATE}, status: qualified, content_stage: planned, hard_gate:
+          pass. Fill every section and every platform production row. Never
+          overwrite an existing topic SoT.
+
+          Write runs/${RUN_DATE}/report.md with all candidates, scores,
+          rejections, evidence URLs, and the five accepted topics. Write
+          runs/${RUN_DATE}/status.json with status done only when all five SoTs
+          are complete. If five qualified topics cannot be supported, write
+          needs-human with the reason and do not fabricate topics.
+
+          Do not edit the generated selection queue; the deterministic script
+          rebuilds it after validation. Do not draft or publish content.
+          EOF
+
+      - name: Research and score topics
+        if: steps.existing.outputs.count == '0'
+        id: codex
+        continue-on-error: true
+        uses: openai/codex-action@v1
+        with:
+          openai-api-key: ${{ secrets.OPENAI_API_KEY }}
+          permission-profile: ":workspace"
+          prompt-file: .prompt.md
+          codex-args: "--search"
+
+      - name: Validate the five daily topics
+        id: validate
+        continue-on-error: true
+        env:
+          RUN_DATE: ${{ steps.date.outputs.value }}
+        run: |
+          python3 scripts/topic_library.py validate-daily --date "$RUN_DATE" --expected 5
+
+      - name: Report a failed run
+        if: steps.validate.outcome != 'success' || (steps.existing.outputs.count == '0' && steps.codex.outcome != 'success')
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RUN_DATE: ${{ steps.date.outputs.value }}
+          CODEX_MESSAGE: ${{ steps.codex.outputs.final-message }}
+        run: |
+          {
+            echo "The daily topic run did not produce five valid topic SoTs."
+            echo
+            echo "Codex result:"
+            printf '%s\n' "$CODEX_MESSAGE"
+            echo
+            echo "Review the workflow log and the run files before retrying."
+          } > /tmp/topic-failure.md
+          gh issue create --repo "${{ github.repository }}" \
+            --title "Daily topics ${RUN_DATE}: needs human" \
+            --body-file /tmp/topic-failure.md
+
+      - name: Stop after a failed run
+        if: steps.validate.outcome != 'success' || (steps.existing.outputs.count == '0' && steps.codex.outcome != 'success')
+        run: exit 1
+
+      - name: Rebuild the top-five selection queue
+        env:
+          RUN_DATE: ${{ steps.date.outputs.value }}
+        run: python3 scripts/topic_library.py rebuild --date "$RUN_DATE"
+
+      - name: Commit the topic library update
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RUN_DATE: ${{ steps.date.outputs.value }}
+        run: |
+          git add topics/library topics/selection runs
+          git diff --cached --quiet && { echo "No topic changes"; exit 0; }
+          git config user.name "formecore-topic-bot"
+          git config user.email "formecore-topic-bot@users.noreply.github.com"
+          git commit -m "topics: daily discovery ${RUN_DATE}"
+          git push "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git" HEAD:${{ github.ref_name }}
